@@ -1,2 +1,37 @@
-Respuesta c: Si se puede
-Respuesta d: No, no se pierden
+1-
+Gerardo Toranzo
+echo "# RepoVacio" >> README.md
+git init
+git add README.md
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https://github.com/Jeraaa13/TP_SO_i2_Equipo123.git
+git push -u origin main
+touch fork.txt
+git add .
+git commit -m "Primer commit y agrego fork.txt"
+git push origin main
+
+2-
+Luciano Vega
+git clone https://github.com/VegaLuciano/TP_SO_i2_Equipo.git
+#(Modifica el fork con nombre apellido, ip de la maquina, hora)
+git add .
+git commit -m "Primer commit y agrego los datos"
+git push origin main
+
+3-
+Yanina Ponce
+git clone https://github.com/Yaninaponcec94/TP_SO_i2_Equipo123.git
+#(Modifica el fork con nombre apellido, ip de la maquina, hora)
+git add .
+git commit -m "Update fork.txt"
+git push origin main
+
+4-
+Gerardo Toranzo
+git clone https://github.com/Jeraaa13/TP_SO_i2_Equipo123.git
+touch NuevoDato.txt
+git add NuevoDato.txt
+git commit -m "Agrego el archivo NuevoDato.txt"
+git push origin main
